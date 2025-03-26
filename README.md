@@ -2,7 +2,7 @@
 
 Search a set of strings/documents with fuzzy matching
 
-```
+```javascript
 import FuzzySet from 'fuzzyset';
 
 const docs = ['afghanistan', 'albania', 'algeria', ...]
