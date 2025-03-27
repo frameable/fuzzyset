@@ -29,15 +29,15 @@ Array of strings, each of which could be a simple title, or the entire text of a
 
 ##### options
 
-- `synonyms` - Object with keys as alias terms pointing to canonical terms.  For example, `{ nyc: 'New York City', philly: 'Philadelphia' }`
+- `synonyms` - Object with keys as alias terms pointing to canonical terms.  Ex: `{ nyc: 'New York City', philly: 'Philadelphia' }`
 
-- `stopwords` - Array of terms that should be ignored for having no semantic meaning.  For example, `['a', 'an', 'of', 'the', '&']`
+- `stopwords` - Array of terms that should be ignored for having no semantic meaning.  Ex: `['a', 'an', 'of', 'the', '&']`
 
-- `tokenMatchFactor` - How much score weight to give to matching normalized tokens.  Default `0.5`.
+- `tokenMatchFactor` - Weight to give to matching normalized tokens.  Default `0.5`.
 
-- `tokenPrefixFactor` - How much score weight to give to terms matching prefixes.  Default `0.25`.
+- `tokenPrefixFactor` - Weight to give to terms matching prefixes.  Default `0.25`.
 
-- `prefixFactor` - How much score weight to give to direct document prefix term matching.  Default `0.12`
+- `prefixFactor` - Weight to give to direct document prefix term matching.  Default `0.12`
 
-- `vaccuumFactor` - How much score weight to give to consonant terms with vowels removed.  Default `0.8`
+- `vaccuumFactor` - Weight to give to consonant terms with vowels removed.  Default `0.8`
 
